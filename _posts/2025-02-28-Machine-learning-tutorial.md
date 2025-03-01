@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Intro to Machine Learning Techniques"
+title: "Machine learning tutorial"
 date: 2025-02-28
 categories: blog
 ---
