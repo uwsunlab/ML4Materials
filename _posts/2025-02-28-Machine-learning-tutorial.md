@@ -6,8 +6,8 @@ categories: blog
 ---
 
 
-##  Machine Learning Techniques 
-*What is Machine Learning?*
+## What is Machine Learning?
 
-###There are many machine learning techniques
+
+### There are many machine learning techniques
 
