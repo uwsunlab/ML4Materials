@@ -2,7 +2,6 @@
 title: Welcome to Machine Learning Tutorials by UWSunLab
 ---
 
-## Content
-
-
-
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
