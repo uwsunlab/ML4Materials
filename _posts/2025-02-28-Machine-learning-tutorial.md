@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "Machine learning tutorial"
+title: "Machine learning Techniques"
 date: 2025-02-28
 categories: blog
 ---
 
 
-## First page 
+##  Machine Learning Techniques 
+*What is Machine Learning?*
+
+###There are many machine learning techniques
+
