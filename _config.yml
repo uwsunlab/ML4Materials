@@ -1,3 +1,8 @@
-theme: minima
-title: ML Tutorial
+title: ML4Materials
 description: Machine Learning for Clean Energy Research
+theme: just-the-docs
+plugins:
+  - jekyll-default-layout
+
+url: https://uwsunlab.github.io/ML4Materials
+
