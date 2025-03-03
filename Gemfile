@@ -2,4 +2,4 @@
 
 source "https://rubygems.org"
 
-gem "just-the-docs", group: :jekyll_plugins
+gem "just-the-docs"
