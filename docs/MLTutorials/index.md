@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Machine Learning Tutorials"
 date: 2025-02-28
 layout: default

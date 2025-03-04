@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Machine learning Techniques"
 date: 2025-02-28
 parent: Machine Learning Tutorials
