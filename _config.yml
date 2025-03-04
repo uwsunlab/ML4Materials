@@ -1,6 +1,6 @@
 title: ML4Materials
 description: Machine Learning for Clean Energy Research
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-default-layout
 
