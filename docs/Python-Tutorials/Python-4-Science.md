@@ -7,5 +7,5 @@ parent: Python Tutorials
 
 ---
 
-## Sk-learn
+## Install the "Sk-learn Library"
 
