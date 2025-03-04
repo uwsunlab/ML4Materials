@@ -7,6 +7,6 @@ categories: blog
 ---
 
 
-## What is Machine Learning?
+## Blog post on ML
 
 
