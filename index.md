@@ -2,6 +2,7 @@
 title: Welcome to Machine Learning Tutorials
 nav_order: 1
 permalink: /
+nav_enabled: true
 ---
 
 
