@@ -2,7 +2,7 @@
 title: "Machine Learning Tutorials"
 date: 2025-02-28
 layout: default
-nav_order: 3
+nav_order: 3.1
 nav_enabled: true
 ---
 
