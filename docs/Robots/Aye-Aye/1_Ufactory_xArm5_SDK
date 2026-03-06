@@ -1,0 +1,80 @@
+---
+title: "Ufactory xArm 5"
+date: 2026-03-01
+parent: Aye-Aye
+layout: default
+---
+All code is from [Ufactory Docs](https://docs.api.ufactory.cc/xarm_python_sdk_docs/1.%20xArm-Python-SDK%20Installation.html)
+
+
+# 1. xArm Python SDK Installation
+## 1.1 Installing using pip
+```
+pip install xarm-python-sdk
+```
+
+## 1.2 Installing by cloning the Github
+### Step 1
+Find the GitHub link for [xArm-Python-SDK](https://github.com/xArm-Developer/xArm-Python-SDK)
+
+### Step 2
+```
+git clone https://github.com/xArm-Developer/xArm-Python-SDK.git
+```
+### Step 3
+After cloning then run the commands in terminal 
+- Windows
+```powershell
+python setup.py install
+ ```
+- Linux (or mac)
+```terminal
+python3 setup.py install 
+```
+
+# 2. Wiring the Robot Arm
+Follow the instruction in the package to set up the robot.
+
+### 2.1 Connecting multiple robots via Lan
+Materials:
+- Router
+- ethernet cables
+- Windows settings configuration (Network > ethernet settings)
+
+
+When connecting several robots to one computer, often they will have different IP addresses
+For example: 
+- Opentron Flex: 
+    - IP Address: 169.254.29.164 (Direct connection)
+    - Subnet mask: 255.255.0.0
+    - Port: 31950 
+    - Jupyter port: 48888
+- Ufactory xArm5
+    - IP Address: 192.168.1.xxx
+    - Port: :18333
+
+By connecting it through a router, we can controll the IP's and requests that get sent to each robot!
+
+# 3. Connecting the robot in python or Jupyter notebook
+Run the following code in a cell or in a script to connect to the robot.
+(Also can be tested in terminal )
+
+``` Python 
+from xarm.wrapper import XArmAPI
+arm = XArmAPI('192.168.1.217')
+arm.connect()
+```
+It will return 
+
+> ROBOT_IP: 192.168.1.217, VERSION: v2.7.1, PROTOCOL: V1, DETAIL: 5,5,XF1305,AC1304,v2.7.1, TYPE1300: [1, 1]
+change protocol identifier to 3
+
+
+
+To disconnect run:
+```python
+arm.disconnect()
+```
+It will return a '0' if succesful 
+
+
