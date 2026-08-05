@@ -97,9 +97,3 @@ Roll pitch and yaw can be described like:
 - roll →  rotate around X (twist wrist left to right)
 - pitch → rotate around y (nodding head up and down)
 - yaw → rotate around z (turning your head let to right) 
-
-
-# 1.1.
-```
-pip install xarm-python-sdk
-```
